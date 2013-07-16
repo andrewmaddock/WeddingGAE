@@ -1,0 +1,19 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: url('/resources/images/background.png') repeat;
+    color: #003992;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.error {
+    color: #f15d2a;
+}
+
+input.error, select.error {
+    border: solid 2px #f15d2a;
+}

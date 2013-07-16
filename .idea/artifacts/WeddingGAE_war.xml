@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="WeddingGAE:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="WeddingGAE.war">
+      <element id="artifact" artifact-name="WeddingGAE:war exploded" />
+    </root>
+  </artifact>
+</component>
