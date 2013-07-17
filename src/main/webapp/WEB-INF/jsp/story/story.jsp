@@ -13,14 +13,14 @@
     
     <div class="container">
     
-        <h1>Play List Confirm</h1>
+        <h1>Story</h1>
     
         <jsp:include page="/WEB-INF/jsp/fragments/footer.jsp"/>
     
     </div> <!-- /container -->
     
     <jsp:include page="/WEB-INF/jsp/fragments/scripts.jsp"/>
-    <script type="text/javascript">activateNavItem("playlist");</script>
+    <script type="text/javascript">activateNavItem("story");</script>
 
 </body>
 </html>

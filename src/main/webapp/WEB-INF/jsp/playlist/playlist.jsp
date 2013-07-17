@@ -6,11 +6,11 @@
 
 <html lang="en">
 
-<jsp:include page="../fragments/header.jsp"/>
+<jsp:include page="/WEB-INF/jsp/fragments/header.jsp"/>
 
 <body>
 
-<jsp:include page="../fragments/navbar.jsp"/>
+<jsp:include page="/WEB-INF/jsp/fragments/navbar.jsp"/>
 
 <div class="container">
 
@@ -46,7 +46,7 @@
             <div class="control-group">
                 <form:label for="why" path="why" cssClass="control-label">Why:</form:label>
                 <div class="controls">
-                    <form:textarea path="why" cssErrorClass="error" placeholder="Why"/>
+                    <form:textarea path="why" cssErrorClass="error" placeholder="Why" rows="3"/>
                     <form:errors path="why" cssClass="error"/>
                 </div>    
             </div>
@@ -59,11 +59,11 @@
         </fieldset>
     </form:form>
 
-    <jsp:include page="../fragments/footer.jsp"/>
+    <jsp:include page="/WEB-INF/jsp/fragments/footer.jsp"/>
 
 </div> <!-- /container -->
 
-<jsp:include page="../fragments/scripts.jsp"/>
+<jsp:include page="/WEB-INF/jsp/fragments/scripts.jsp"/>
 <script type="text/javascript" src="<spring:url value='/resources/js/playlist/playlist.js'/>"></script>
 
 </body>

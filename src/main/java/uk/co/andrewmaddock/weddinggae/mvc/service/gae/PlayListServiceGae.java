@@ -21,7 +21,7 @@ public class PlayListServiceGae implements PlayListService {
     
     @Override
     public boolean email(PlayList playList) {
-        log.info("PlayListService.email(): " + playList);
+        log.info(this.getClass().getCanonicalName() + ".email(): " + playList);
         return emailService.send(playList);
     }
     

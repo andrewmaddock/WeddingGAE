@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 
 import org.springframework.web.servlet.DispatcherServlet;
 
-import uk.co.andrewmaddock.weddinggae.model.PlayList;
+import uk.co.andrewmaddock.weddinggae.model.Rsvp;
 
 /**
  * Play List Service Interface.
@@ -12,10 +12,10 @@ import uk.co.andrewmaddock.weddinggae.model.PlayList;
  * @author Andrew Maddock
  *         Date: 16/07/13 08:43
  */
-public interface PlayListService {
+public interface RsvpService {
 
     final Logger log = Logger.getLogger(DispatcherServlet.class.getName());
     
-    boolean email(PlayList form);    
+    boolean email(Rsvp form);    
     
 }

@@ -1,9 +1,9 @@
 package uk.co.andrewmaddock.weddinggae.model;
 
 import java.io.Serializable;
+import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.core.style.ToStringCreator;
 
@@ -27,7 +27,7 @@ public class PlayList implements Serializable {
     @NotEmpty(message = "Track cannot be empty")
     private String track;
 
-    @Length(max = 500, message = "Why must be less than 500 characters")
+    @Size(max = 500, message = "Why must be less than 500 characters")
     private String why;
 
     public String getRequester() {
