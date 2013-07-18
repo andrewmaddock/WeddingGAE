@@ -13,8 +13,8 @@
                     <ul class="nav">
                         <li id="home"><a href="<spring:url value='/'/>"><i class="icon-home icon-white"></i> Home</a></li>
                         <li id="story"><a href="<spring:url value='/story'/>"><i class="icon-heart icon-white"></i> Our Story</a></li>
-                        <li id="info" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-info-sign icon-white"></i> Info<b class="caret"></b></a>
+                        <li id="wedding" class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-info-sign icon-white"></i> Wedding<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li id="details"><a href="<spring:url value='/info/details'/>"><i class="icon-time"></i> Details</a></li>
                                 <li id="venues"><a href="<spring:url value='/info/venues'/>"><i class="icon-glass"></i> Venues</a></li>

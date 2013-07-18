@@ -14,8 +14,10 @@ import uk.co.andrewmaddock.weddinggae.model.Rsvp;
  */
 public interface RsvpService {
 
-    final Logger log = Logger.getLogger(DispatcherServlet.class.getName());
+    final static Logger log = Logger.getLogger(DispatcherServlet.class.getName());
     
-    boolean email(Rsvp form);    
+    boolean email(Rsvp rsvp);
+    
+    boolean save(Rsvp rsvp);
     
 }

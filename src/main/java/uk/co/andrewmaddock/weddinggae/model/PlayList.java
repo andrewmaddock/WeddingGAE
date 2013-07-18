@@ -3,7 +3,6 @@ package uk.co.andrewmaddock.weddinggae.model;
 import java.io.Serializable;
 import javax.validation.constraints.Size;
 
-import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.core.style.ToStringCreator;
 
@@ -18,7 +17,7 @@ public class PlayList implements Serializable {
     private static final long serialVersionUID = 8467356953499282256L;
     
     @NotEmpty(message = "Requester cannot be empty")
-    @Email(message = "Requester must be a valid email address")
+//    @Email(message = "Requester must be a valid email address")
     private String requester;
 
     @NotEmpty(message = "Artist cannot be empty")

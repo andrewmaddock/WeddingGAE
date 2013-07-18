@@ -46,7 +46,7 @@ public class RsvpController {
         if (result.hasErrors()) {
             return "rsvp/rsvp";
         } else {
-            if (rsvpService.email(rsvp)) {
+            if (rsvpService.save(rsvp) && rsvpService.email(rsvp)) {
                 status.setComplete();
                 return "redirect:/rsvp/confirm";
             } else {

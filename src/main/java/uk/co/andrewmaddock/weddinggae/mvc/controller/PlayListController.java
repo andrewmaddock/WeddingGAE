@@ -45,7 +45,7 @@ public class PlayListController {
         if (result.hasErrors()) {
             return "playlist/playlist";
         } else {
-            if (playListService.email(playlist)) {
+            if (playListService.save(playlist) && playListService.email(playlist)) {
                 status.setComplete();
                 return "redirect:/playlist/confirm";    
             } else {

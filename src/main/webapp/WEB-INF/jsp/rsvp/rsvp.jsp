@@ -42,52 +42,56 @@
                     </div>
                 </div>
                 
-                <div class="control-group">
-                    <form:label for="adults" path="adults" cssClass="control-label">Adults Attending:</form:label>
-                    <div class="controls">
-                        <form:select path="adults" cssClass="span1" cssErrorClass="error">
-                            <form:option value="1"/> 
-                            <form:option value="2"/> 
-                            <form:option value="3"/> 
-                            <form:option value="4"/> 
-                        </form:select>
-                        <form:errors path="adults" cssClass="error"/>
+                <div id="attendingGroup">
+                    
+                    <div class="control-group">
+                        <form:label for="adults" path="adults" cssClass="control-label">Adults Attending:</form:label>
+                        <div class="controls">
+                            <form:select path="adults" cssClass="span1" cssErrorClass="error">
+                                <form:option value="1"/> 
+                                <form:option value="2"/> 
+                                <form:option value="3"/> 
+                                <form:option value="4"/> 
+                            </form:select>
+                            <form:errors path="adults" cssClass="error"/>
+                        </div>
                     </div>
-                </div>
-
-                <div class="control-group">
-                    <form:label for="children" path="children" cssClass="control-label">Children Attending:</form:label>
-                    <div class="controls">
-                        <form:select path="children" cssClass="span1" cssErrorClass="error">
-                            <form:option value="0"/>
-                            <form:option value="1"/>
-                            <form:option value="2"/>
-                            <form:option value="3"/>
-                            <form:option value="4"/>
-                        </form:select>
-                        <form:errors path="children" cssClass="error"/>
+    
+                    <div class="control-group">
+                        <form:label for="children" path="children" cssClass="control-label">Children Attending:</form:label>
+                        <div class="controls">
+                            <form:select path="children" cssClass="span1" cssErrorClass="error">
+                                <form:option value="0"/>
+                                <form:option value="1"/>
+                                <form:option value="2"/>
+                                <form:option value="3"/>
+                                <form:option value="4"/>
+                            </form:select>
+                            <form:errors path="children" cssClass="error"/>
+                        </div>
                     </div>
-                </div>
-
-                <div class="control-group">
-                    <%--<form:label for="transport" path="transport" cssClass="control-label">Transport:</form:label>--%>
-                    <div class="controls">
-                        <form:label path="transport" cssClass="checkbox">
-                            <form:checkbox path="transport"/>
-                            We'd like to get the bus
-                        </form:label>
-                        <form:errors path="transport" cssClass="error"/>
+    
+                    <div class="control-group">
+                        <%--<form:label for="transport" path="transport" cssClass="control-label">Transport:</form:label>--%>
+                        <div class="controls">
+                            <form:label path="transport" cssClass="checkbox">
+                                <form:checkbox path="transport"/>
+                                We'd like to get the bus
+                            </form:label>
+                            <form:errors path="transport" cssClass="error"/>
+                        </div>
                     </div>
-                </div>
-
-                <div class="control-group">
-                    <form:label for="messages" path="messages" cssClass="control-label">Messages:</form:label>
-                    <div class="controls">
-                        <form:textarea path="messages" cssClass="span4" cssErrorClass="error" placeholder="Any thing you'd like to tell us?" rows="3"/>
-                        <form:errors path="messages" cssClass="error"/>
+    
+                    <div class="control-group">
+                        <form:label for="messages" path="messages" cssClass="control-label">Messages:</form:label>
+                        <div class="controls">
+                            <form:textarea path="messages" cssClass="span4" cssErrorClass="error" placeholder="Any thing you'd like to tell us?" rows="3"/>
+                            <form:errors path="messages" cssClass="error"/>
+                        </div>
                     </div>
+                
                 </div>
-
+                
                 <div class="control-group">
                     <div class="controls">
                         <button type="submit" class="btn">Respond</button>
@@ -101,7 +105,7 @@
     </div> <!-- /container -->
     
     <jsp:include page="/WEB-INF/jsp/fragments/scripts.jsp"/>
-    <script type="text/javascript">activateNavItem("rsvp");</script>
+    <script type="text/javascript" src="<spring:url value='/resources/js/rsvp/rsvp.js'/>"></script>
 
 </body>
 </html>

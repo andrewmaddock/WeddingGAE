@@ -4,8 +4,6 @@ import java.util.logging.Logger;
 
 import org.springframework.web.servlet.DispatcherServlet;
 
-import uk.co.andrewmaddock.weddinggae.model.PlayList;
-
 /**
  * Email Service Interface.
  *
@@ -15,7 +13,9 @@ import uk.co.andrewmaddock.weddinggae.model.PlayList;
 public interface EmailService {
 
     static final Logger log = Logger.getLogger(DispatcherServlet.class.getName());
+
+    static final String FROM_EMAIL = "email@andrewmaddock.co.uk";
     
-    boolean send(PlayList playList);
+    boolean send(String to, String subject, String body);
     
 }

@@ -14,8 +14,10 @@ import uk.co.andrewmaddock.weddinggae.model.PlayList;
  */
 public interface PlayListService {
 
-    final Logger log = Logger.getLogger(DispatcherServlet.class.getName());
+    final static Logger log = Logger.getLogger(DispatcherServlet.class.getName());
     
-    boolean email(PlayList form);    
+    boolean email(PlayList playlist);
+
+    boolean save(PlayList playlist);
     
 }

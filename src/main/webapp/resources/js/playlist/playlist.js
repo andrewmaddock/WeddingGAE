@@ -7,8 +7,8 @@ $(function() {
     $('#playlistForm').validate({
         rules: {
             requester: {
-                required: true,
-                email: true
+                required: true
+//                email: true
             },
             artist: "required", 
             track: "required",
@@ -19,17 +19,16 @@ $(function() {
         },
         messages: {
             requester: {
-                required: " Requester cannot be empty",
-                email: "Requester must be a valid email address"
+                required: " Requester cannot be empty"
+//                email: "Requester must be a valid email address"
             }, 
             artist: " Artist cannot be empty",
             track: " Track cannot be empty",
-            why: " Why must be less than 500 characters"
+            why: {
+                maxlength: jQuery.format("Why must be less than {0} characters")    
+            }
         },
-        errorElement: "span",
-        submitHandler: function(form) {
-            form.submit();
-        }  
+        errorElement: "span"
     });
     
 });

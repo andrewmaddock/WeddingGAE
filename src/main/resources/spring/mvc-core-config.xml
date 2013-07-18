@@ -31,6 +31,8 @@
         <constructor-arg ref="javaProperties"/>
         <constructor-arg><null/></constructor-arg>
     </bean>
+
+    <bean id="datastore" class="com.google.appengine.api.datastore.DatastoreServiceFactory" factory-method="getDatastoreService"/>
     
 </beans>
         

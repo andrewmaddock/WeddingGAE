@@ -8,7 +8,7 @@ package uk.co.andrewmaddock.weddinggae.mvc.service;
  */
 public class ServiceException extends Exception {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = -3916879763155516855L;
 
     public ServiceException() {
         super();

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import uk.co.andrewmaddock.weddinggae.mvc.helper.EmailHelper;
 
 /**
- * Email Helper.
+ * Email Helper GAE.
  *
  * @author Andrew Maddock
  *         Date: 16/07/13 13:43

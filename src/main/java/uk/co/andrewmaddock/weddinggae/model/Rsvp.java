@@ -19,6 +19,7 @@ public class Rsvp implements Serializable {
     private static final long serialVersionUID = -5212436493939200125L;
 
     @NotEmpty(message = "Names cannot be empty")
+    @Size(max = 500, message = "Names must be less than 500 characters")
     private String names;
     
     private boolean attending;

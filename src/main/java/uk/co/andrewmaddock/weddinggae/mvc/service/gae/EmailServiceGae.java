@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
-import uk.co.andrewmaddock.weddinggae.model.PlayList;
 import uk.co.andrewmaddock.weddinggae.mvc.helper.EmailHelper;
 import uk.co.andrewmaddock.weddinggae.mvc.service.EmailService;
 
@@ -23,24 +22,16 @@ public class EmailServiceGae implements EmailService {
     private final EmailHelper helper = null;
 
     @Override
-    public boolean send(PlayList playList) {
+    public boolean send(String to, String subject, String body) {
         boolean success = false;
         
         MimeMessageHelper mimeMessageHelper = helper.getMimeMessageHelper();
-
-        String newLine = System.getProperty("line.separator");
-        StringBuilder body = new StringBuilder().
-                append("Playlist Item").append(newLine).append(newLine).
-                append("Requester: ").append(playList.getRequester()).append(newLine).
-                append("Artist: ").append(playList.getArtist()).append(newLine).
-                append("Track: ").append(playList.getTrack()).append(newLine).
-                append("Why: ").append(playList.getWhy()).append(newLine);
         
         try {
-            mimeMessageHelper.addTo(playList.getRequester());
-            mimeMessageHelper.setFrom("email@andrewmaddock.co.uk");
-            mimeMessageHelper.setSubject("Test PlayList Send");
-            mimeMessageHelper.setText(body.toString());
+            mimeMessageHelper.addTo(to);
+            mimeMessageHelper.setFrom(FROM_EMAIL);
+            mimeMessageHelper.setSubject(subject);
+            mimeMessageHelper.setText(body);
 
             success = helper.send(mimeMessageHelper.getMimeMessage());
         } catch (MessagingException e) {

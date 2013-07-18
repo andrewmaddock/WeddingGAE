@@ -20,7 +20,7 @@
     </div> <!-- /container -->
     
     <jsp:include page="/WEB-INF/jsp/fragments/scripts.jsp"/>
-    <script type="text/javascript">activateNavItem("info");</script>
+    <script type="text/javascript">activateNavItem("wedding");</script>
     <script type="text/javascript">activateNavItem("accommodation");</script>
 
 </body>
