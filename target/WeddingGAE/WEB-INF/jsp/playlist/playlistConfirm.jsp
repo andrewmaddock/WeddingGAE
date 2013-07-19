@@ -5,22 +5,22 @@
 
 <html lang="en">
 
-<jsp:include page="../fragments/header.jsp"/>
+<jsp:include page="/WEB-INF/jsp/fragments/header.jsp"/>
 
 <body>
 
-<jsp:include page="../fragments/navbar.jsp"/>
-
-<div class="container">
-
-    <h1>Play List Confirm</h1>
-
-    <jsp:include page="../fragments/footer.jsp"/>
-
-</div> <!-- /container -->
-
-<jsp:include page="../fragments/scripts.jsp"/>
-<script type="text/javascript">activateNavItem("playlist");</script>
+    <jsp:include page="/WEB-INF/jsp/fragments/navbar.jsp"/>
+    
+    <div class="container">
+    
+        <h1>Play List Confirm</h1>
+    
+        <jsp:include page="/WEB-INF/jsp/fragments/footer.jsp"/>
+    
+    </div> <!-- /container -->
+    
+    <jsp:include page="/WEB-INF/jsp/fragments/scripts.jsp"/>
+    <script type="text/javascript">activateNavItem("playlist");</script>
 
 </body>
 </html>
