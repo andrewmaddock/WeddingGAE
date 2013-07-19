@@ -2,6 +2,7 @@ package uk.co.andrewmaddock.weddinggae.mvc.service;
 
 import java.util.logging.Logger;
 
+import org.springframework.dao.DataAccessException;
 import org.springframework.web.servlet.DispatcherServlet;
 
 import uk.co.andrewmaddock.weddinggae.model.PlayList;
@@ -16,8 +17,8 @@ public interface PlayListService {
 
     final static Logger log = Logger.getLogger(DispatcherServlet.class.getName());
     
-    boolean email(PlayList playlist);
+    void email(PlayList playlist) throws ServiceException;
 
-    boolean save(PlayList playlist);
+    void save(PlayList playlist) throws DataAccessException;
     
 }

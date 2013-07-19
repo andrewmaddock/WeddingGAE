@@ -20,9 +20,9 @@
             <fieldset>
                 <legend>Add a playlist entry for our DJ</legend>
                 <div class="control-group">
-                    <form:label for="requester" path="requester" cssClass="control-label">Requester Email:</form:label>
+                    <form:label for="requester" path="requester" cssClass="control-label">Requester:</form:label>
                     <div class="controls">
-                        <form:input path="requester" cssErrorClass="error" placeholder="Email"/>
+                        <form:input path="requester" cssErrorClass="error" placeholder="Requester"/>
                         <form:errors path="requester" cssClass="error"/>
                     </div>
                  </div>

@@ -27,22 +27,22 @@ $(function() {
                 maxlength: 500
             }
         },
-        messages: {
-            names: "Names cannot be empty",
-            attending: " Attending must be entered",
-            adults: {
-                required: " Adults must be entered",
-                range: jQuery.format(" Adults must be between {0} and {1}")
-            },
-            children: {
-                required: " Children must be entered",
-                range: jQuery.format(" Children must be between {0} and {1}")
-            },
-//            transport: " Transport must be entered",
-            messages: {
-                maxlength: jQuery.format(" Messages must be less than {0} characters")
-            }
-        },
+//        messages: {
+//            names: "Names cannot be empty",
+//            attending: " Attending must be entered",
+//            adults: {
+//                required: " Adults must be entered",
+//                range: jQuery.format(" Adults must be between {0} and {1}")
+//            },
+//            children: {
+//                required: " Children must be entered",
+//                range: jQuery.format(" Children must be between {0} and {1}")
+//            },
+////            transport: " Transport must be entered",
+//            messages: {
+//                maxlength: jQuery.format(" Messages must be less than {0} characters")
+//            }
+//        },
         errorElement: "span",
         submitHandler: function(form) {
             

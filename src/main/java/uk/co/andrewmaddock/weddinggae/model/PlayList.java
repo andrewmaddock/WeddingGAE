@@ -7,7 +7,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.core.style.ToStringCreator;
 
 /**
- * Playlist model object.
+ * Domain object representing a play list.
  *
  * @author Andrew Maddock
  *         Date: 12/07/13 15:03
@@ -16,17 +16,17 @@ public class PlayList implements Serializable {
 
     private static final long serialVersionUID = 8467356953499282256L;
     
-    @NotEmpty(message = "Requester cannot be empty")
+    @NotEmpty
 //    @Email(message = "Requester must be a valid email address")
     private String requester;
 
-    @NotEmpty(message = "Artist cannot be empty")
+    @NotEmpty
     private String artist;
 
-    @NotEmpty(message = "Track cannot be empty")
+    @NotEmpty
     private String track;
 
-    @Size(max = 500, message = "Why must be less than 500 characters")
+    @Size(max = 500)
     private String why;
 
     public String getRequester() {

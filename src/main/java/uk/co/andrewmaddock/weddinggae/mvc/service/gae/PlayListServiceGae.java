@@ -1,13 +1,15 @@
 package uk.co.andrewmaddock.weddinggae.mvc.service.gae;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import com.google.appengine.api.datastore.DatastoreService;
-import com.google.appengine.api.datastore.Entity;
 import uk.co.andrewmaddock.weddinggae.model.PlayList;
+import uk.co.andrewmaddock.weddinggae.mvc.repository.PlayListRepository;
 import uk.co.andrewmaddock.weddinggae.mvc.service.EmailService;
 import uk.co.andrewmaddock.weddinggae.mvc.service.PlayListService;
+import uk.co.andrewmaddock.weddinggae.mvc.service.ServiceException;
 
 /**
  * Play List MVC Service.
@@ -18,36 +20,29 @@ import uk.co.andrewmaddock.weddinggae.mvc.service.PlayListService;
 @Service
 public class PlayListServiceGae implements PlayListService {
 
+    private final PlayListRepository playListRepository;
+    private final EmailService emailService;
+
     @Autowired
-    private DatastoreService datastore = null;
-    
-    @Autowired
-    private final EmailService emailService = null; 
+    public PlayListServiceGae(PlayListRepository playListRepository, EmailService emailService) {
+        this.playListRepository = playListRepository;
+        this.emailService = emailService;
+    }
     
     @Override
-    public boolean email(PlayList playList) {
+    public void email(PlayList playList) throws ServiceException {
         log.info(this.getClass().getCanonicalName() + " email: " + playList);
-        return emailService.send(
+        emailService.send(
                 playList.getRequester(), 
-                "Test " + this.getClass().getName() + " Send",
+                "Test " + this.getClass().getSimpleName() + " Send",
                 emailBody(playList));
     }
 
     @Override
-    public boolean save(PlayList playlist) {
-        log.info(this.getClass().getCanonicalName() + ".save(): " + playlist);
-        
-        Entity entity = new Entity(playlist.getClass().getSimpleName());
-        
-//        entity.setProperty("requester", new Email(playlist.getRequester()));
-        entity.setProperty("requester", playlist.getRequester());
-        entity.setProperty("artist", playlist.getArtist());
-        entity.setProperty("track", playlist.getTrack());
-        entity.setProperty("why", playlist.getWhy());
-
-        datastore.put(entity);
-        
-        return true;
+    @Transactional
+    public void save(PlayList playlist) throws DataAccessException {
+        log.info(this.getClass().getCanonicalName() + " save: " + playlist);
+        playListRepository.save(playlist);
     }
     
     private static String emailBody(PlayList playList) {

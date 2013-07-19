@@ -13,9 +13,13 @@ import org.springframework.web.servlet.DispatcherServlet;
 public interface EmailService {
 
     static final Logger log = Logger.getLogger(DispatcherServlet.class.getName());
-
-    static final String FROM_EMAIL = "email@andrewmaddock.co.uk";
     
-    boolean send(String to, String subject, String body);
+    void send(String to, String subject, String body) throws ServiceException;
+    
+    void sendHtml(String to, String subject, String htmlBody) throws ServiceException;   
+    
+    void sendToAdmins(String subject, String body) throws ServiceException;
+    
+    void sendHtmlToAdmins(String subject, String htmlBody) throws ServiceException;
     
 }

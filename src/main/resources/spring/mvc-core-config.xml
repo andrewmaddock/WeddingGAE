@@ -25,13 +25,8 @@
         <property name="basenames" value="messages/messages"/>
     </bean>
 
-    <bean id="javaProperties" class="java.util.Properties"/>
-
-    <bean id="mailSession" class="javax.mail.Session" factory-method="getDefaultInstance">
-        <constructor-arg ref="javaProperties"/>
-        <constructor-arg><null/></constructor-arg>
-    </bean>
-
+    <bean id="mailService" class="com.google.appengine.api.mail.MailServiceFactory" factory-method="getMailService"/>
+    
     <bean id="datastore" class="com.google.appengine.api.datastore.DatastoreServiceFactory" factory-method="getDatastoreService"/>
     
 </beans>

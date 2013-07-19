@@ -9,7 +9,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.core.style.ToStringCreator;
 
 /**
- * Rsvp model object.
+ * Domain object representing a rsvp.
  *
  * @author Andrew Maddock
  *         Date: 17/07/13 11:59
@@ -18,23 +18,23 @@ public class Rsvp implements Serializable {
 
     private static final long serialVersionUID = -5212436493939200125L;
 
-    @NotEmpty(message = "Names cannot be empty")
-    @Size(max = 500, message = "Names must be less than 500 characters")
+    @NotEmpty
+    @Size(max = 500)
     private String names;
     
     private boolean attending;
     
-    @Min(value = 0, message = "Number of adults cannot be less than 0") 
-    @Max(value = 4, message = "Number of adults cannot be more than 4")
+    @Min(value = 0) 
+    @Max(value = 4)
     private int adults;
 
-    @Min(value = 0, message = "Number of children cannot be less than 0")
-    @Max(value = 4, message = "Number of children cannot be more than 4")
+    @Min(value = 0)
+    @Max(value = 4)
     private int children;
     
     private boolean transport;
 
-    @Size(max = 500, message = "Messages must be less than 500 characters")
+    @Size(max = 500)
     private String messages;
 
     public String getNames() {

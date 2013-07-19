@@ -1,15 +1,15 @@
 package uk.co.andrewmaddock.weddinggae.mvc.service.gae;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import com.google.appengine.api.datastore.DatastoreService;
-import com.google.appengine.api.datastore.Entity;
 import uk.co.andrewmaddock.weddinggae.model.Rsvp;
+import uk.co.andrewmaddock.weddinggae.mvc.repository.RsvpRepository;
 import uk.co.andrewmaddock.weddinggae.mvc.service.EmailService;
 import uk.co.andrewmaddock.weddinggae.mvc.service.RsvpService;
-
-import static uk.co.andrewmaddock.weddinggae.mvc.service.EmailService.FROM_EMAIL;
+import uk.co.andrewmaddock.weddinggae.mvc.service.ServiceException;
 
 /**
  * Play List MVC Service.
@@ -19,46 +19,29 @@ import static uk.co.andrewmaddock.weddinggae.mvc.service.EmailService.FROM_EMAIL
  */
 @Service
 public class RsvpServiceGae implements RsvpService {
+    
+    private final RsvpRepository rsvpRepository;
+    private final EmailService emailService;
 
     @Autowired
-    private DatastoreService datastore = null;
-    
-    @Autowired
-    private final EmailService emailService = null;
+    public RsvpServiceGae(RsvpRepository rsvpRepository, EmailService emailService) {
+        this.rsvpRepository = rsvpRepository;
+        this.emailService = emailService;
+    }
 
     @Override
-    public boolean email(Rsvp rsvp) {
+    public void email(Rsvp rsvp) throws ServiceException {
         log.info(this.getClass().getCanonicalName() + " email: " + rsvp);
-        return emailService.send(
-                FROM_EMAIL,
-                "Test " + this.getClass().getName() + " Send",
+        emailService.sendToAdmins(
+                "Test " + this.getClass().getSimpleName() + " Send",
                 emailBody(rsvp));
     }
 
     @Override
-    public boolean save(Rsvp rsvp) {
-        if (!rsvp.isAttending()) {
-            notAttending(rsvp);
-        }
-                
-        Entity entity = new Entity(rsvp.getClass().getSimpleName());
-        
-        entity.setProperty("names", rsvp.getNames());
-        entity.setProperty("attending", rsvp.isAttending());
-        entity.setProperty("adults", rsvp.getAdults());
-        entity.setProperty("children", rsvp.getChildren());
-        entity.setProperty("transport", rsvp.isTransport());
-        entity.setProperty("messages", rsvp.getMessages());
-
-        datastore.put(entity);
-        
-        return true;
-    }
-
-    private static void notAttending(Rsvp rsvp) {
-        rsvp.setAdults(0);
-        rsvp.setChildren(0);
-        rsvp.setMessages("");
+    @Transactional
+    public void save(Rsvp rsvp) throws DataAccessException {
+        log.info(this.getClass().getCanonicalName() + " save: " + rsvp);
+        rsvpRepository.save(rsvp);
     }
 
     private static String emailBody(Rsvp rsvp) {

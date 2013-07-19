@@ -4,9 +4,9 @@ package uk.co.andrewmaddock.weddinggae.mvc.service;
  * Service Exception.
  *
  * @author Andrew Maddock
- *         Date: 16/07/13 13:49
+ *         Date: 19/07/13 09:55
  */
-public class ServiceException extends Exception {
+public class ServiceException extends RuntimeException {
 
     private static final long serialVersionUID = -3916879763155516855L;
 
@@ -14,12 +14,12 @@ public class ServiceException extends Exception {
         super();
     }
 
-    public ServiceException(String message, Throwable cause) {
-        super(message, cause);
-    }
-
     public ServiceException(String message) {
         super(message);
+    }
+
+    public ServiceException(String message, Throwable cause) {
+        super(message, cause);
     }
 
     public ServiceException(Throwable cause) {

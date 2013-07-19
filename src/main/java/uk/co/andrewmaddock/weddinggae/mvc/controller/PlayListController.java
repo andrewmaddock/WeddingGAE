@@ -45,18 +45,21 @@ public class PlayListController {
         if (result.hasErrors()) {
             return "playlist/playlist";
         } else {
-            if (playListService.save(playlist) && playListService.email(playlist)) {
-                status.setComplete();
-                return "redirect:/playlist/confirm";    
-            } else {
-                return "playlist/playlist";    
-            }
+            playListService.save(playlist);
+            playListService.email(playlist);
+            status.setComplete();
+            return "redirect:/playlist/confirm";    
         }
     }
 
     @RequestMapping(value = "/confirm", method = RequestMethod.GET)
     public String confirm() {
         return "playlist/playlistConfirm";
+    }
+
+    @RequestMapping(value = "/view", method = RequestMethod.GET)
+    public String view() {
+        return "playlist/playlistView";
     }
 
 }

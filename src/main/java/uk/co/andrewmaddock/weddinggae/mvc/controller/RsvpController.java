@@ -46,18 +46,22 @@ public class RsvpController {
         if (result.hasErrors()) {
             return "rsvp/rsvp";
         } else {
-            if (rsvpService.save(rsvp) && rsvpService.email(rsvp)) {
-                status.setComplete();
-                return "redirect:/rsvp/confirm";
-            } else {
-                return "rsvp/rsvp";
-            }
+            rsvpService.save(rsvp);
+            rsvpService.email(rsvp);
+            status.setComplete();
+            return "redirect:/rsvp/confirm";
         }
     }
 
     @RequestMapping(value = "/confirm", method = RequestMethod.GET)
     public String confirm() {
         return "rsvp/rsvpConfirm";
+    }
+
+
+    @RequestMapping(value = "/view", method = RequestMethod.GET)
+    public String view() {
+        return "rsvp/rsvpView";
     }
 
 }
