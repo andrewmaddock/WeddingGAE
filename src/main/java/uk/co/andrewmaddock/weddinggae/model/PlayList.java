@@ -1,10 +1,12 @@
 package uk.co.andrewmaddock.weddinggae.model;
 
-import java.io.Serializable;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.core.style.ToStringCreator;
+
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
 
 /**
  * Domain object representing a play list.
@@ -12,9 +14,13 @@ import org.springframework.core.style.ToStringCreator;
  * @author Andrew Maddock
  *         Date: 12/07/13 15:03
  */
-public class PlayList implements Serializable {
+@Entity
+public class PlayList extends BaseEntity {
 
     private static final long serialVersionUID = 8467356953499282256L;
+
+    @Id
+    protected Long id;
     
     @NotEmpty
 //    @Email(message = "Requester must be a valid email address")
@@ -28,6 +34,16 @@ public class PlayList implements Serializable {
 
     @Size(max = 500)
     private String why;
+
+    @Override
+    public Long getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getRequester() {
         return requester;
@@ -64,6 +80,7 @@ public class PlayList implements Serializable {
     @Override
     public String toString() {
         return new ToStringCreator(this)
+                .append("id", this.getId())
                 .append("requester", this.getRequester())
                 .append("artist", this.getArtist())
                 .append("track", this.getTrack())

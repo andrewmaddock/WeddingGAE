@@ -3,7 +3,6 @@ package uk.co.andrewmaddock.weddinggae.mvc.service.gae;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import uk.co.andrewmaddock.weddinggae.model.PlayList;
 import uk.co.andrewmaddock.weddinggae.mvc.repository.PlayListRepository;
@@ -39,7 +38,6 @@ public class PlayListServiceGae implements PlayListService {
     }
 
     @Override
-    @Transactional
     public void save(PlayList playlist) throws DataAccessException {
         log.info(this.getClass().getCanonicalName() + " save: " + playlist);
         playListRepository.save(playlist);

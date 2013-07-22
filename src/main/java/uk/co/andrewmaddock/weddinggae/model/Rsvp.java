@@ -1,6 +1,5 @@
 package uk.co.andrewmaddock.weddinggae.model;
 
-import java.io.Serializable;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
@@ -8,16 +7,23 @@ import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.core.style.ToStringCreator;
 
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
+
 /**
  * Domain object representing a rsvp.
  *
  * @author Andrew Maddock
  *         Date: 17/07/13 11:59
  */
-public class Rsvp implements Serializable {
+@Entity 
+public class Rsvp extends BaseEntity {
 
     private static final long serialVersionUID = -5212436493939200125L;
 
+    @Id
+    protected Long id;
+    
     @NotEmpty
     @Size(max = 500)
     private String names;
@@ -36,6 +42,16 @@ public class Rsvp implements Serializable {
 
     @Size(max = 500)
     private String messages;
+
+    @Override
+    public Long getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getNames() {
         return names;
@@ -88,6 +104,7 @@ public class Rsvp implements Serializable {
     @Override
     public String toString() {
         return new ToStringCreator(this)
+                .append("id", this.getId())
                 .append("names", this.getNames())
                 .append("attending", this.isAttending())
                 .append("adults", this.getAdults())

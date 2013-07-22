@@ -3,7 +3,6 @@ package uk.co.andrewmaddock.weddinggae.mvc.service.gae;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import uk.co.andrewmaddock.weddinggae.model.Rsvp;
 import uk.co.andrewmaddock.weddinggae.mvc.repository.RsvpRepository;
@@ -38,7 +37,6 @@ public class RsvpServiceGae implements RsvpService {
     }
 
     @Override
-    @Transactional
     public void save(Rsvp rsvp) throws DataAccessException {
         log.info(this.getClass().getCanonicalName() + " save: " + rsvp);
         rsvpRepository.save(rsvp);

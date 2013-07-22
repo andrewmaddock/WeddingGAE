@@ -1,5 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="
+            http://maven.apache.org/POM/4.0.0 
+            http://maven.apache.org/maven-v4_0_0.xsd">
+    
     <modelVersion>4.0.0</modelVersion>
     <groupId>uk.co.andrewmaddock</groupId>
     <artifactId>WeddingGAE</artifactId>
@@ -11,11 +15,12 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
         <spring.version>3.2.3.RELEASE</spring.version>
-        <hibernate.version>4.3.1.Final</hibernate.version>
+        <hibernate-validator.version>4.3.1.Final</hibernate-validator.version>
         <junit.version>4.10</junit.version>
     </properties>
 
     <dependencies>
+        
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -29,9 +34,21 @@
         </dependency>
 
         <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>1.7.7</version>
+            <version>1.8.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.objectify</groupId>
+            <artifactId>objectify</artifactId>
+            <version>4.0rc1</version>
         </dependency>
         
         <dependency>
@@ -55,8 +72,10 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>${hibernate.version}</version>
+            <version>${hibernate-validator.version}</version>
         </dependency>
+
+
 
         <dependency>
             <groupId>junit</groupId>
@@ -100,4 +119,5 @@
             </plugin>
         </plugins>
     </build>
+    
 </project>

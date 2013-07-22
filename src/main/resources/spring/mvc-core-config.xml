@@ -27,7 +27,7 @@
 
     <bean id="mailService" class="com.google.appengine.api.mail.MailServiceFactory" factory-method="getMailService"/>
     
-    <bean id="datastore" class="com.google.appengine.api.datastore.DatastoreServiceFactory" factory-method="getDatastoreService"/>
-    
+    <!--<bean id="datastore" class="com.google.appengine.api.datastore.DatastoreServiceFactory" factory-method="getDatastoreService"/>-->
+
 </beans>
         

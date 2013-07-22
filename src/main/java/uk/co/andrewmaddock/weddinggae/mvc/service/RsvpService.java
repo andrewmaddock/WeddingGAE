@@ -3,6 +3,7 @@ package uk.co.andrewmaddock.weddinggae.mvc.service;
 import java.util.logging.Logger;
 
 import org.springframework.dao.DataAccessException;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.servlet.DispatcherServlet;
 
 import uk.co.andrewmaddock.weddinggae.model.Rsvp;
@@ -16,9 +17,11 @@ import uk.co.andrewmaddock.weddinggae.model.Rsvp;
 public interface RsvpService {
 
     final static Logger log = Logger.getLogger(DispatcherServlet.class.getName());
-    
+
+    @Transactional
     void email(Rsvp rsvp) throws ServiceException;
-    
+
+    @Transactional
     void save(Rsvp rsvp) throws DataAccessException;
     
 }
