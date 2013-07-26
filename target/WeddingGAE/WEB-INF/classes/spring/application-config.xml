@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="datasource-config.xml"/>
+
+    <!-- application repositories -->
+    <beans profile="gae">
+
+        <bean id="playListRepository" class="uk.co.andrewmaddock.wedding.repository.gae.PlayListRepositoryGae" depends-on="ofyService"/>
+
+        <bean id="rsvpRepository" class="uk.co.andrewmaddock.wedding.repository.gae.RsvpRepositoryGae" depends-on="ofyService"/>
+
+    </beans>
+    
+    <!-- application services -->
+    <beans profile="gae">
+        
+        <bean id="mailService" class="com.google.appengine.api.mail.MailServiceFactory" factory-method="getMailService"/>
+        
+        <bean id="emailService" class="uk.co.andrewmaddock.wedding.service.gae.EmailServiceGae">
+            <constructor-arg index="0" ref="mailService"/>  
+        </bean>
+        
+        <bean id="playListService" class="uk.co.andrewmaddock.wedding.service.gae.PlayListServiceGae">
+            <constructor-arg index="0" ref="playListRepository"/>
+            <constructor-arg index="1" ref="emailService"/>
+        </bean>
+
+        <bean id="rsvpService" class="uk.co.andrewmaddock.wedding.service.gae.RsvpServiceGae">
+            <constructor-arg index="0" ref="rsvpRepository"/>
+            <constructor-arg index="1" ref="emailService"/>
+        </bean>
+        
+    </beans>
+
+</beans>

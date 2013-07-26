@@ -6,10 +6,7 @@ $(function() {
     // setup form validation
     $('#playlistForm').validate({
         rules: {
-            requester: {
-                required: true
-//                email: true
-            },
+            requester: "required",
             artist: "required", 
             track: "required",
             why: {
@@ -18,14 +15,11 @@ $(function() {
             }
         },
 //        messages: {
-//            requester: {
-//                required: " Requester cannot be empty"
-////                email: "Requester must be a valid email address"
-//            }, 
+//            required: " Requester cannot be empty",
 //            artist: " Artist cannot be empty",
 //            track: " Track cannot be empty",
 //            why: {
-//                maxlength: jQuery.format("Why must be less than {0} characters")    
+//                maxlength: jQuery.format(" Why must be less than {0} characters")    
 //            }
 //        },
         errorElement: "span"

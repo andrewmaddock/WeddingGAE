@@ -2,12 +2,14 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="
-        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans 
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="objectifyFactoryBean" class="uk.co.andrewmaddock.weddinggae.mvc.repository.gae.ObjectifyFactoryBean">
-        <property name="basePackage" value="uk.co.andrewmaddock.weddinggae.model"/>
-    </bean>
+    <!-- application data sources -->
+    <beans profile="gae">
+        
+        <bean id="ofyService" class="uk.co.andrewmaddock.wedding.repository.gae.OfyService"/>
 
-    
+    </beans>
+
 </beans>

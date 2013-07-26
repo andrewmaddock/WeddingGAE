@@ -8,10 +8,6 @@
           <element id="module-output" name="WeddingGAE" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
-          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.7" />
-          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
-          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0.2" />
           <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.8.2" />
           <element id="library" level="project" name="Maven: com.googlecode.objectify:objectify:4.0rc1" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:14.0.1" />

@@ -1,47 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="149be514-59cd-44d4-97e0-6b106af60a90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/BaseEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/ObjectifyFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/datasource-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/PlayList.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/PlayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/controller/PlayListController.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/controller/PlayListController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/PlayListRepositoryGae.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/PlayListRepositoryGae.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/PlayListService.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/PlayListService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/gae/PlayListServiceGae.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/gae/PlayListServiceGae.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/Rsvp.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/Rsvp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/controller/RsvpController.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/controller/RsvpController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/RsvpService.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/RsvpService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/gae/RsvpServiceGae.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/gae/RsvpServiceGae.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeddingGAE.iml" afterPath="$PROJECT_DIR$/WeddingGAE.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/mvc-core-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/mvc-core-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="D:\RAD8\Workspaces\WeddingGAE\src\main\java\uk\co\andrewmaddock\weddinggae\mvc\repository\gae\RSvpRepositoryGae.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/RsvpRepositoryGae.java" />
-    </list>
+    <list default="true" id="149be514-59cd-44d4-97e0-6b106af60a90" name="Default" comment="" />
     <ignored path="WeddingGAE.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../iMarketTrunk/iMarketPropertyOwnersV7WAR/soapuitest/PropertyOwnersV7Quote-soapui-project.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373556829519" ignored="false" />
-    <file path="/pom.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374496607863" ignored="false" />
+    <file path="/pom.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374839434505" ignored="false" />
     <file path="/IndexController.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373557589634" ignored="false" />
     <file path="/TestController.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373557748535" ignored="false" />
-    <file path="/Dummy.txt" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374495406204" ignored="false" />
+    <file path="/Dummy.txt" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374847093297" ignored="false" />
     <file path="/fragment.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374504434140" ignored="false" />
     <file path="/spring-servlet.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373619302091" ignored="false" />
-    <file path="/web.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374496941490" ignored="false" />
+    <file path="/web.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374846004141" ignored="false" />
     <file path="/rsvp.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374143848445" ignored="false" />
     <file path="/welcome.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373634873470" ignored="false" />
     <file path="/package-info.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373980598420" ignored="false" />
-    <file path="/appengine-web.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373978183366" ignored="false" />
+    <file path="/appengine-web.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374844809699" ignored="false" />
     <file path="/venue.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373632915000" ignored="false" />
     <file path="/RsvpController.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374136016561" ignored="false" />
     <file path="/playList.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373632936284" ignored="false" />
     <file path="/giftList.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373632948506" ignored="false" />
-    <file path="/mvc-core-config.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374225837272" ignored="false" />
+    <file path="/mvc-core-config.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374835387643" ignored="false" />
     <file path="/scripts.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374051035987" ignored="false" />
     <file path="/giftlist.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373633005043" ignored="false" />
-    <file path="/a.dummy" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374134861738" ignored="false" />
+    <file path="/a.dummy" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374846802751" ignored="false" />
     <file path="/wedding.css" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373888373205" ignored="false" />
     <file path="/navbar.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374067577412" ignored="false" />
     <file path="/wedding.js" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373635221638" ignored="false" />
@@ -54,21 +36,21 @@
     <file path="/messages.properties" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373978014141" ignored="false" />
     <file path="/errors.properties" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373903514184" ignored="false" />
     <file path="/playlist.js" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373989967960" ignored="false" />
-    <file path="/PlayList.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374510676482" ignored="false" />
+    <file path="/PlayList.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374770091932" ignored="false" />
     <file path="/PlayListServiceGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374226300945" ignored="false" />
-    <file path="/EmailService.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374225594869" ignored="false" />
+    <file path="/EmailService.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374768242586" ignored="false" />
     <file path="/EmailServiceGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374225786961" ignored="false" />
     <file path="/EmailHelperGAE.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373982765748" ignored="false" />
     <file path="/EmailHelper.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374163403436" ignored="false" />
     <file path="/EmailHelperGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374151593924" ignored="false" />
-    <file path="/beans.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373982254921" ignored="false" />
+    <file path="/beans.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374831128818" ignored="false" />
     <file path="$PROJECT_DIR$/../iMarketTrunk/iMarketCommon/src/uk/co/groupama/imarketcommon/processors/request/AddressProcessor.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1373983603851" ignored="false" />
     <file path="/story.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374054109137" ignored="false" />
     <file path="/mvc-view-config.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374052955757" ignored="false" />
     <file path="/venues.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374052754272" ignored="false" />
     <file path="/transport.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374052981581" ignored="false" />
     <file path="/accommodation.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374053305198" ignored="false" />
-    <file path="/Rsvp.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374510533220" ignored="false" />
+    <file path="/Rsvp.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374770104970" ignored="false" />
     <file path="/RsvpServiceGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374226270239" ignored="false" />
     <file path="/RsvpService.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374224482129" ignored="false" />
     <file path="/rsvpConfirm.jsp" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374064672898" ignored="false" />
@@ -77,16 +59,22 @@
     <file path="/RSvpRepositoryGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374151782473" ignored="false" />
     <file path="/RsvpRepositoryGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374502118941" ignored="false" />
     <file path="/PlayListRepository.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374153320855" ignored="false" />
-    <file path="/PlayListRepositoryGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374502912706" ignored="false" />
+    <file path="/PlayListRepositoryGae.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374769135141" ignored="false" />
     <file path="/ServiceException.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374226060917" ignored="false" />
     <file path="$PROJECT_DIR$/../OptimaOnlineTrunk/OptimaOnlineWAR/TestSource/uk/co/groupama/optimaonline/mail/parameters/messagefragments/MessageFragmentTestCase.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374242600188" ignored="false" />
     <file path="/MessageFragmentTestCase.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374242596155" ignored="false" />
     <file path="$PROJECT_DIR$/../OptimaOnlineTrunk/OptimaOnlineWAR/TestSource/uk/co/groupama/optimaonline/mail/parameters/messagefragments/AssumptionsFragmentTest.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374242712692" ignored="false" />
     <file path="/AssumptionsFragmentTest.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374242628363" ignored="false" />
-    <file path="/datasource-config.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374508135990" ignored="false" />
+    <file path="/datasource-config.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374834147923" ignored="false" />
     <file path="/__dummy.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374499301948" ignored="false" />
     <file path="/ObjectifyFactoryBean.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374508043922" ignored="false" />
-    <file path="/BaseEntity.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374510636887" ignored="false" />
+    <file path="/BaseEntity.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374570752964" ignored="false" />
+    <file path="/ObjectifyDataSource.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374771991290" ignored="false" />
+    <file path="/OfyService.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374829246793" ignored="false" />
+    <file path="/application-config.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374837996411" ignored="false" />
+    <file path="/mvc-controller-config.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374838005197" ignored="false" />
+    <file path="/applicationContext.xml" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374839831939" ignored="false" />
+    <file path="/UnvalidatedXmlWebApplicationContext.java" changelist="149be514-59cd-44d4-97e0-6b106af60a90" time="1374845596082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,23 +89,9 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify-appengine-spring/objectify-appengine-spring/1.1.1/objectify-appengine-spring-1.1.1-sources.jar!/com/googlecode/objectify/spring/ObjectifyFactoryBean.java" line="114" class="com.googlecode.objectify.spring.ObjectifyFactoryBean" package="com.googlecode.objectify.spring">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/PlayListRepositoryGae.java" line="29" class="uk.co.andrewmaddock.weddinggae.mvc.repository.gae.PlayListRepositoryGae" package="uk.co.andrewmaddock.weddinggae.mvc.repository.gae">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -184,7 +158,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -195,29 +168,90 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="PlayList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/PlayList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/model/PlayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="410" selection-end="417" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/BaseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+            <state line="40" column="16" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rsvp.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/Rsvp.java">
+      <file leaf-file-name="RsvpController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/mvc/controller/RsvpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="75" selection-start="705" selection-end="705" vertical-scroll-proportion="0.21820304">
+            <state line="43" column="16" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayListController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/mvc/controller/PlayListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="16" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/ServiceException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="11" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmailService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/EmailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="9" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/model/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="19" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rsvp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/model/Rsvp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="16" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rsvp.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/rsvp/rsvp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="8" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RsvpServiceGae.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/gae/RsvpServiceGae.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="22" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayListServiceGae.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/gae/PlayListServiceGae.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="85" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.86654806">
               <folding />
             </state>
           </provider>
@@ -235,6 +269,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -242,22 +277,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/gae/PlayListServiceGae.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/PlayListService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/RsvpService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/service/gae/RsvpServiceGae.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/controller/PlayListController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/controller/RsvpController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/PlayListRepositoryGae.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/RsvpRepositoryGae.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/service/gae/serviceContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/repository/gae/repositoryContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/service/gae/EmailServiceGae.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/mvc-core-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/ObjectifyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/mvc-controller-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/datasource-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/repository/gae/PlayListRepositoryGae.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/context/UnvalidatedXmlWebApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/context/gae/UnvalidatedXmlWebApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/application-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/model/PlayList.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/PlayList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/Rsvp.java" />
       </list>
     </option>
   </component>
@@ -270,6 +305,20 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WeddingGAE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -560,7 +609,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -579,8 +628,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -588,220 +635,6 @@
               <option name="myItemId" value="WeddingGAE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.googlecode.objectify:objectify:4.0rc1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify-4.0rc1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.googlecode.objectify:objectify:4.0rc1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify-4.0rc1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.googlecode.objectify:objectify:4.0rc1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify-4.0rc1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.googlecode.objectify:objectify:4.0rc1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify-4.0rc1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.googlecode.objectify:objectify:4.0rc1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objectify-4.0rc1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Java 1.6 (Environment Variables) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Java 1.6 (Environment Variables) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Java 1.6 (Environment Variables) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Java 1.6 (Environment Variables) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -848,8 +681,68 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="WeddingGAE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeddingGAE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeddingGAE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeddingGAE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsvp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -896,36 +789,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -949,11 +812,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weddinggae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="wedding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -983,11 +842,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weddinggae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="wedding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1021,15 +876,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weddinggae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
+              <option name="myItemId" value="wedding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1055,49 +902,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weddinggae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeddingGAE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddinggae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="wedding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1127,7 +932,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weddinggae" />
+              <option name="myItemId" value="wedding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1137,11 +942,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1151,7 +958,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="http.proxy" />
-    <property name="last_opened_file_path" value="E:/Servers/GAE/appengine-java-sdk-1.8.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.36570862" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -1174,11 +981,11 @@
       <recent name="uk.co.andrewmaddock.weddinggae.mvc.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\webapp\WEB-INF" />
+      <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\resources\spring" />
+      <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\java\uk\co\andrewmaddock\weddinggae\model\gae" />
       <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\webapp\resources\js\rsvp" />
       <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\webapp\WEB-INF\jsp\rsvp" />
-      <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\webapp\WEB-INF\jsp\info" />
-      <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\java\uk\co\andrewmaddock\weddinggae\mvc\helper\gae" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\RAD8\Workspaces\WeddingGAE\src\main\webapp\WEB-INF\jsp\info" />
@@ -1441,32 +1248,36 @@
       <created>1374241875890</created>
       <updated>1374241875890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Objectify Service&#10;XML Configuration&#10;Split XML configuration files&#10;beans &quot;gae&quot; profile&#10;">
+      <created>1374847100502</created>
+      <updated>1374847100502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1040" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57191396" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56738394" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56718063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45866364" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42695355" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42621145" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.25481313" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65118915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.403171" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4030837" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24900557" sideWeight="0.45300114" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26094005" sideWeight="0.7134768" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2609375" sideWeight="0.5969163" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.57304645" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42695355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26640624" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4636564" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1518,7 +1329,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update validation messages&#10;Added PlayList and RSVP Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Objectify Service&#10;XML Configuration&#10;Split XML configuration files&#10;beans &quot;gae&quot; profile&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1536,6 +1347,7 @@
     <MESSAGE value="Updated toolbar&#10;Rsvp form" />
     <MESSAGE value="Save Playlist&#10;Save RSVP&#10;Rsvp form validation" />
     <MESSAGE value="Update validation messages&#10;Added PlayList and RSVP Repository" />
+    <MESSAGE value="Objectify Service&#10;XML Configuration&#10;Split XML configuration files&#10;beans &quot;gae&quot; profile&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1547,123 +1359,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/PlayListRepositoryGae.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/mvc-view-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/RsvpRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/mvc-controller-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/PlayListRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/mvc-core-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/datasource-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/RsvpService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="113" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+        <state line="16" column="17" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/4.0rc1/objectify-4.0rc1-sources.jar!/com/googlecode/objectify/ObjectifyFilter.java">
+    <entry file="file://$PROJECT_DIR$/WeddingGAE.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="57" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/4.0rc1/objectify-4.0rc1-sources.jar!/com/googlecode/objectify/annotation/Entity.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="531" selection-end="531" vertical-scroll-proportion="0.44444445">
+        <state line="45" column="104" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/4.0rc1/objectify-4.0rc1-sources.jar!/com/googlecode/objectify/annotation/EntitySubclass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/ServiceException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.54260087">
+        <state line="12" column="11" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.6.0_25/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="12" selection-start="6452" selection-end="6452" vertical-scroll-proportion="2.8888888">
+        <state line="18" column="9" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/4.0rc1/objectify-4.0rc1-sources.jar!/com/googlecode/objectify/impl/KeysOnlyIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/model/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="514" selection-end="514" vertical-scroll-proportion="-0.8518519">
+        <state line="31" column="19" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/4.0rc1/objectify-4.0rc1-sources.jar!/com/googlecode/objectify/impl/EntityMetadata.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/model/PlayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="115" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+        <state line="40" column="16" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/4.0rc1/objectify-4.0rc1-sources.jar!/com/googlecode/objectify/impl/Registrar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/mvc/controller/RsvpController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="35" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.33183858">
-          <folding>
-            <element signature="e#1097#1126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/4.0rc1/objectify-4.0rc1-sources.jar!/com/googlecode/objectify/ObjectifyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="27" selection-start="7396" selection-end="7396" vertical-scroll-proportion="81.76">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/mvc/repository/gae/ObjectifyFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="40" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.17535545">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ObjectifyFactoryBean#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+        <state line="43" column="16" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/PlayList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/mvc/controller/PlayListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="410" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="59" column="16" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/weddinggae/model/Rsvp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/model/Rsvp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="75" selection-start="705" selection-end="705" vertical-scroll-proportion="0.21820304">
+        <state line="97" column="16" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/rsvp/rsvp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="8" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/gae/RsvpServiceGae.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/andrewmaddock/wedding/service/gae/PlayListServiceGae.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="85" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.86654806">
           <folding />
         </state>
       </provider>
@@ -1675,10 +1478,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
-              <type id="artifact" />
               <type id="jpa-descriptors" />
+              <type id="artifact" />
               <type id="library" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
           <last-edited>WeddingGAE:war exploded</last-edited>
@@ -1694,7 +1497,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Google App Engine (WeddingGAE)|Google App Engine</last-edited>
+          <last-edited>Spring (WeddingGAE)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1706,7 +1509,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>WebSphere Application Server v7.0</last-edited>
+          <last-edited>groovy-2.0.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
