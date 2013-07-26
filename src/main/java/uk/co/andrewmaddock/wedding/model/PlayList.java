@@ -15,12 +15,12 @@ import com.googlecode.objectify.annotation.Id;
  *         Date: 12/07/13 15:03
  */
 @Entity
-public class PlayList extends BaseEntity {
+public class PlayList implements BaseEntity {
 
     private static final long serialVersionUID = 8467356953499282256L;
 
     @Id
-    protected Long id;
+    private Long id;
     
     @NotEmpty
     private String requester;
@@ -34,6 +34,16 @@ public class PlayList extends BaseEntity {
     @Size(max = 500)
     private String why;
 
+    @Override
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    @Override
+    public Long getId() {
+        return id;
+    }
+    
     public String getRequester() {
         return requester;
     }

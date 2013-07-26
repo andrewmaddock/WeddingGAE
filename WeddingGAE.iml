@@ -52,7 +52,6 @@
     <orderEntry type="library" name="jquery.validate" level="application" />
     <orderEntry type="library" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.8.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.persistence:persistence-api:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.objectify:objectify:4.0rc1" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:14.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.appengine:appengine-api-labs:1.7.6" level="project" />

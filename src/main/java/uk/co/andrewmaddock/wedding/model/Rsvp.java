@@ -19,12 +19,12 @@ import com.googlecode.objectify.condition.IfNotZero;
  *         Date: 17/07/13 11:59
  */
 @Entity 
-public class Rsvp extends BaseEntity {
+public class Rsvp implements BaseEntity {
 
     private static final long serialVersionUID = -5212436493939200125L;
 
     @Id
-    protected Long id;
+    private Long id;
     
     @NotEmpty
     @Size(max = 500)
@@ -50,15 +50,15 @@ public class Rsvp extends BaseEntity {
     private String messages;
 
     @Override
-    public Long getId() {
-        return id;
-    }
-
-    @Override
     public void setId(Long id) {
         this.id = id;
     }
 
+    @Override
+    public Long getId() {
+        return id;
+    }
+    
     public String getNames() {
         return names;
     }
@@ -119,5 +119,5 @@ public class Rsvp extends BaseEntity {
                 .append("messages", this.getMessages())
                 .toString();
     }
-    
+
 }

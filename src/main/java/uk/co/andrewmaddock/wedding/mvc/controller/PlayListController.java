@@ -38,8 +38,7 @@ public class PlayListController {
     
     @RequestMapping(method = RequestMethod.GET)
     public String init(Model model) {
-        PlayList playlist = new PlayList();
-        model.addAttribute("playlist", playlist);
+        model.addAttribute("playlist", new PlayList());
         return "playlist/playlist";
     }
     
