@@ -1,9 +1,10 @@
-package uk.co.andrewmaddock.weddinggae.model;
+package uk.co.andrewmaddock.wedding.model;
 
 import java.io.Serializable;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
 
 /**
  * Simple JavaBean domain object with an id property. Used as a base class for objects needing this property.
@@ -11,6 +12,7 @@ import javax.persistence.Id;
  * @author Andrew Maddock
  *         Date: 22/07/13 17:22
  */
+@MappedSuperclass
 public abstract class BaseEntity implements Serializable {
 
     private static final long serialVersionUID = -5681806812286946461L;

@@ -1,4 +1,4 @@
-package uk.co.andrewmaddock.weddinggae.mvc.service;
+package uk.co.andrewmaddock.wedding.service;
 
 /**
  * Service Exception.

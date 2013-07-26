@@ -1,4 +1,4 @@
-package uk.co.andrewmaddock.weddinggae.model;
+package uk.co.andrewmaddock.wedding.model;
 
 import javax.validation.constraints.Size;
 
@@ -23,7 +23,6 @@ public class PlayList extends BaseEntity {
     protected Long id;
     
     @NotEmpty
-//    @Email(message = "Requester must be a valid email address")
     private String requester;
 
     @NotEmpty
@@ -34,16 +33,6 @@ public class PlayList extends BaseEntity {
 
     @Size(max = 500)
     private String why;
-
-    @Override
-    public Long getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getRequester() {
         return requester;

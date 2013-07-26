@@ -1,4 +1,4 @@
-package uk.co.andrewmaddock.weddinggae.mvc.controller;
+package uk.co.andrewmaddock.wedding.mvc.controller;
 
 import javax.validation.Valid;
 
@@ -10,61 +10,59 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.support.SessionStatus;
 
-import uk.co.andrewmaddock.weddinggae.model.Rsvp;
-import uk.co.andrewmaddock.weddinggae.mvc.service.RsvpService;
+import uk.co.andrewmaddock.wedding.model.PlayList;
+import uk.co.andrewmaddock.wedding.service.PlayListService;
 
 /**
- * RSVP MVC Controller.
+ * Play List MVC Controller.
  *
  * @author Andrew Maddock
  *         Date: 11/07/13 16:48
  */
 @Controller
-@SessionAttributes("rsvp")
-@RequestMapping(value = "/rsvp")
-public class RsvpController {
+@SessionAttributes("playlist")
+@RequestMapping(value = "/playlist")
+public class PlayListController {
 
-    private final RsvpService rsvpService;
+    private final PlayListService playListService;
 
     @Autowired
-    public RsvpController(RsvpService rsvpService) {
-        this.rsvpService = rsvpService;
+    public PlayListController(PlayListService playListService) {
+        this.playListService = playListService;
     }
 
     @InitBinder
     public void setAllowedFields(WebDataBinder dataBinder) {
         dataBinder.setDisallowedFields("id");
     }
-
-    @RequestMapping(method = RequestMethod.GET)  
+    
+    @RequestMapping(method = RequestMethod.GET)
     public String init(Model model) {
-        Rsvp rsvp = new Rsvp();
-        rsvp.setAttending(true);
-        model.addAttribute("rsvp", rsvp);
-        return "rsvp/rsvp";
+        PlayList playlist = new PlayList();
+        model.addAttribute("playlist", playlist);
+        return "playlist/playlist";
     }
-
+    
     @RequestMapping(method = RequestMethod.POST)
-    public String add(@ModelAttribute("rsvp") @Valid Rsvp rsvp, BindingResult result, SessionStatus status) {
+    public String add(@ModelAttribute("playlist") @Valid PlayList playlist, BindingResult result, SessionStatus status) {
         if (result.hasErrors()) {
-            return "rsvp/rsvp";
+            return "playlist/playlist";
         } else {
-            rsvpService.save(rsvp);
-            rsvpService.email(rsvp);
+            playListService.save(playlist);
+            playListService.email(playlist);
             status.setComplete();
-            return "redirect:/rsvp/confirm";
+            return "redirect:/playlist/confirm";    
         }
     }
 
     @RequestMapping(value = "/confirm", method = RequestMethod.GET)
     public String confirm() {
-        return "rsvp/rsvpConfirm";
+        return "playlist/playlistConfirm";
     }
-
 
     @RequestMapping(value = "/view", method = RequestMethod.GET)
     public String view() {
-        return "rsvp/rsvpView";
+        return "playlist/playlistView";
     }
 
 }

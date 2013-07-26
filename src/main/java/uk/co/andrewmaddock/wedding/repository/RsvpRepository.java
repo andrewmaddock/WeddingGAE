@@ -1,8 +1,8 @@
-package uk.co.andrewmaddock.weddinggae.mvc.repository;
+package uk.co.andrewmaddock.wedding.repository;
 
 import org.springframework.dao.DataAccessException;
 
-import uk.co.andrewmaddock.weddinggae.model.Rsvp;
+import uk.co.andrewmaddock.wedding.model.Rsvp;
 
 /**
  * Repository class for <code>Rsvp</code> domain objects.

@@ -9,6 +9,7 @@
     
     <system-properties>
         <property name="java.util.logging.config.file" value="WEB-INF/classes/logging/gae/logging.properties"/>
+        <property name="spring.profiles.active" value="gae"/>
     </system-properties>
 
     <static-files>

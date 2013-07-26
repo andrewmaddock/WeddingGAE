@@ -1,4 +1,4 @@
-package uk.co.andrewmaddock.weddinggae.mvc.service;
+package uk.co.andrewmaddock.wedding.service;
 
 import java.util.logging.Logger;
 

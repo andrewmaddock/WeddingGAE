@@ -12,43 +12,47 @@
     <name>WeddingGAE</name>
 
     <properties>
+        <!-- maven -->
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
+        <!-- gae -->
+        <appengine-api-1.0-sdk.version>1.8.2</appengine-api-1.0-sdk.version>
+        <servlet-api.version>2.5</servlet-api.version>
+        <!-- compile -->
         <spring.version>3.2.3.RELEASE</spring.version>
         <hibernate-validator.version>4.3.1.Final</hibernate-validator.version>
+        <objectify.version>4.0rc1</objectify.version>
+        <!-- test -->
         <junit.version>4.10</junit.version>
+        <mockito-all.version>1.9.5</mockito-all.version>
     </properties>
 
     <dependencies>
-        
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>mail</artifactId>
-            <version>1.4.7</version>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.persistence</groupId>
-            <artifactId>persistence-api</artifactId>
-            <version>1.0.2</version>
-        </dependency>
 
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>1.8.2</version>
+            <version>${appengine-api-1.0-sdk.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0.2</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>com.googlecode.objectify</groupId>
             <artifactId>objectify</artifactId>
-            <version>4.0rc1</version>
+            <version>${objectify.version}</version>
         </dependency>
         
         <dependency>
@@ -75,12 +79,17 @@
             <version>${hibernate-validator.version}</version>
         </dependency>
 
-
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito-all.version}</version>
             <scope>test</scope>
         </dependency>
         
@@ -88,7 +97,9 @@
 
     <build>
         <finalName>WeddingGAE</finalName>
+        
         <plugins>
+            
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
@@ -96,15 +107,16 @@
                     <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
+            
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <includes>
-                        <!--<include>**/*Tests.java</include>-->
-                        <include>**/*.java</include>
+                        <include>**/*Tests.java</include>
                     </includes>
                 </configuration>
             </plugin>
+            
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
@@ -117,7 +129,9 @@
                     </webResources>
                 </configuration>
             </plugin>
+            
         </plugins>
+        
     </build>
     
 </project>

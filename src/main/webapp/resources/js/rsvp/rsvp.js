@@ -21,7 +21,6 @@ $(function() {
                 required: true,
                 range: [0, 4]
             },
-//            transport: "required",
             messages: {
                 required: true,
                 maxlength: 500
@@ -38,7 +37,6 @@ $(function() {
 //                required: " Children must be entered",
 //                range: jQuery.format(" Children must be between {0} and {1}")
 //            },
-////            transport: " Transport must be entered",
 //            messages: {
 //                maxlength: jQuery.format(" Messages must be less than {0} characters")
 //            }

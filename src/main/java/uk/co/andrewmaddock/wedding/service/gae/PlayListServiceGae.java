@@ -1,14 +1,14 @@
-package uk.co.andrewmaddock.weddinggae.mvc.service.gae;
+package uk.co.andrewmaddock.wedding.service.gae;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 
-import uk.co.andrewmaddock.weddinggae.model.PlayList;
-import uk.co.andrewmaddock.weddinggae.mvc.repository.PlayListRepository;
-import uk.co.andrewmaddock.weddinggae.mvc.service.EmailService;
-import uk.co.andrewmaddock.weddinggae.mvc.service.PlayListService;
-import uk.co.andrewmaddock.weddinggae.mvc.service.ServiceException;
+import uk.co.andrewmaddock.wedding.model.PlayList;
+import uk.co.andrewmaddock.wedding.repository.PlayListRepository;
+import uk.co.andrewmaddock.wedding.service.EmailService;
+import uk.co.andrewmaddock.wedding.service.PlayListService;
+import uk.co.andrewmaddock.wedding.service.ServiceException;
 
 /**
  * Play List MVC Service.

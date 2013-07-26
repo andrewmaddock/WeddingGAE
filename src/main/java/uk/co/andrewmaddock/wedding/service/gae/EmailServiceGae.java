@@ -1,4 +1,4 @@
-package uk.co.andrewmaddock.weddinggae.mvc.service.gae;
+package uk.co.andrewmaddock.wedding.service.gae;
 
 import java.io.IOException;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 
 import com.google.appengine.api.mail.MailService;
 import com.google.appengine.api.utils.SystemProperty;
-import uk.co.andrewmaddock.weddinggae.mvc.service.EmailService;
-import uk.co.andrewmaddock.weddinggae.mvc.service.ServiceException;
+import uk.co.andrewmaddock.wedding.service.EmailService;
+import uk.co.andrewmaddock.wedding.service.ServiceException;
 
 import static com.google.appengine.api.mail.MailService.Message;
 

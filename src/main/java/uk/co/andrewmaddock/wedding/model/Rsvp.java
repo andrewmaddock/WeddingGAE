@@ -1,4 +1,4 @@
-package uk.co.andrewmaddock.weddinggae.model;
+package uk.co.andrewmaddock.wedding.model;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
@@ -9,6 +9,8 @@ import org.springframework.core.style.ToStringCreator;
 
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
+import com.googlecode.objectify.annotation.Index;
+import com.googlecode.objectify.condition.IfNotZero;
 
 /**
  * Domain object representing a rsvp.
@@ -27,17 +29,21 @@ public class Rsvp extends BaseEntity {
     @NotEmpty
     @Size(max = 500)
     private String names;
-    
+
+    @Index
     private boolean attending;
     
-    @Min(value = 0) 
+    @Min(value = 1) 
     @Max(value = 4)
+    @Index(IfNotZero.class)
     private int adults;
 
     @Min(value = 0)
     @Max(value = 4)
+    @Index(IfNotZero.class)
     private int children;
-    
+
+    @Index
     private boolean transport;
 
     @Size(max = 500)

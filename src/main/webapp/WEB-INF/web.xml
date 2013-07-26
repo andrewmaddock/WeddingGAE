@@ -5,20 +5,31 @@
             http://java.sun.com/xml/ns/j2ee 
 	        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-	<display-name>Wedding GAE Test</display-name>
-    <description>Wedding Website Google App Engine Test</description>
+	<display-name>Maddy &amp; Andy Wedding</display-name>
+    <description>Maddy &amp; Andy Wedding Website</description>
 
-     <!--&lt;!&ndash;Location of the XML file that defines the root application context applied by ContextLoaderListener &ndash;&gt;-->
+    <context-param>
+        <param-name>contextClass</param-name>
+        <param-value>uk.co.andrewmaddock.wedding.context.gae.UnvalidatedXmlWebApplicationContext</param-value>
+    </context-param>
+    
+     <!-- Location of the XML file that defines the root application context applied by ContextLoaderListener -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>
+            classpath:spring/application-config.xml
+        </param-value>
+    </context-param>
+
     <!--<context-param>-->
-        <!--<param-name>contextConfigLocation</param-name>-->
-        <!--<param-value>-->
-        <!--</param-value>-->
+        <!--<param-name>spring.profiles.active</param-name>-->
+        <!--<param-value>default</param-value>-->
     <!--</context-param>-->
 
-    <!--<listener>-->
-        <!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
-    <!--</listener>-->
-    
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
     <!-- Servlet that dispatches request to registered handlers (Controller implementations) -->
     <servlet>
         <servlet-name>wedding</servlet-name>
@@ -27,7 +38,7 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>
                 classpath:spring/mvc-core-config.xml
-                classpath:spring/datasource-config.xml
+                classpath:spring/mvc-view-config.xml
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>

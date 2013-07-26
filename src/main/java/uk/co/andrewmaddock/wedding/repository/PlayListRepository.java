@@ -1,8 +1,8 @@
-package uk.co.andrewmaddock.weddinggae.mvc.repository;
+package uk.co.andrewmaddock.wedding.repository;
 
 import org.springframework.dao.DataAccessException;
 
-import uk.co.andrewmaddock.weddinggae.model.PlayList;
+import uk.co.andrewmaddock.wedding.model.PlayList;
 
 /**
  * Repository class for <code>PlayList</code> domain objects.
