@@ -32,7 +32,7 @@ public class PlayListController {
 
     @InitBinder
     public void setAllowedFields(WebDataBinder dataBinder) {
-        dataBinder.setDisallowedFields("id");                                                                     ª
+        dataBinder.setDisallowedFields("id");
     }
     
     @RequestMapping(method = RequestMethod.GET)
