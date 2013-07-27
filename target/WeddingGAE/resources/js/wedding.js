@@ -1,3 +1,3 @@
 function activateNavItem (item) {
-   $("#" + item).addClass("active");
+   $("#" + item).addClass("current");
 };
