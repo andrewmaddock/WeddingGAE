@@ -1,8 +1,8 @@
 package uk.co.andrewmaddock.wedding.service;
 
-import java.util.logging.Logger;
-
 import org.springframework.web.servlet.DispatcherServlet;
+
+import java.util.logging.Logger;
 
 /**
  * Email Service Interface.

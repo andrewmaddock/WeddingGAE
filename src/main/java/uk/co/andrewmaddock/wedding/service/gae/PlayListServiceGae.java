@@ -3,7 +3,6 @@ package uk.co.andrewmaddock.wedding.service.gae;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
-
 import uk.co.andrewmaddock.wedding.model.PlayList;
 import uk.co.andrewmaddock.wedding.repository.PlayListRepository;
 import uk.co.andrewmaddock.wedding.service.EmailService;

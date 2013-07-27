@@ -1,12 +1,11 @@
 package uk.co.andrewmaddock.wedding.model;
 
-import javax.validation.constraints.Size;
-
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.core.style.ToStringCreator;
 
-import com.googlecode.objectify.annotation.Entity;
-import com.googlecode.objectify.annotation.Id;
+import javax.validation.constraints.Size;
 
 /**
  * Domain object representing a play list.

@@ -1,9 +1,8 @@
 package uk.co.andrewmaddock.wedding.context.gae;
 
+import com.google.appengine.api.utils.SystemProperty;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.web.context.support.XmlWebApplicationContext;
-
-import com.google.appengine.api.utils.SystemProperty;
 
 /**
  * Custom context class to further reduce the loading time of an application by disabling XML validation in production.

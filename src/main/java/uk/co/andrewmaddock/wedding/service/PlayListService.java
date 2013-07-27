@@ -1,12 +1,11 @@
 package uk.co.andrewmaddock.wedding.service;
 
-import java.util.logging.Logger;
-
 import org.springframework.dao.DataAccessException;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.servlet.DispatcherServlet;
-
 import uk.co.andrewmaddock.wedding.model.PlayList;
+
+import java.util.logging.Logger;
 
 /**
  * Play List Service Interface.

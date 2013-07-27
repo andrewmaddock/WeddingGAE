@@ -1,7 +1,5 @@
 package uk.co.andrewmaddock.wedding.mvc.controller;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,9 +7,10 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.support.SessionStatus;
-
 import uk.co.andrewmaddock.wedding.model.PlayList;
 import uk.co.andrewmaddock.wedding.service.PlayListService;
+
+import javax.validation.Valid;
 
 /**
  * Play List MVC Controller.
@@ -33,7 +32,7 @@ public class PlayListController {
 
     @InitBinder
     public void setAllowedFields(WebDataBinder dataBinder) {
-        dataBinder.setDisallowedFields("id");
+        dataBinder.setDisallowedFields("id");                                                                     ª
     }
     
     @RequestMapping(method = RequestMethod.GET)

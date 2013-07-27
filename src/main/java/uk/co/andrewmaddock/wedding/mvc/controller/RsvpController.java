@@ -1,7 +1,5 @@
 package uk.co.andrewmaddock.wedding.mvc.controller;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,9 +7,10 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.support.SessionStatus;
-
 import uk.co.andrewmaddock.wedding.model.Rsvp;
 import uk.co.andrewmaddock.wedding.service.RsvpService;
+
+import javax.validation.Valid;
 
 /**
  * RSVP MVC Controller.

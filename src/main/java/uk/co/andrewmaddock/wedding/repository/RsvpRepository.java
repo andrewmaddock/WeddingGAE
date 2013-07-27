@@ -1,7 +1,6 @@
 package uk.co.andrewmaddock.wedding.repository;
 
 import org.springframework.dao.DataAccessException;
-
 import uk.co.andrewmaddock.wedding.model.Rsvp;
 
 /**

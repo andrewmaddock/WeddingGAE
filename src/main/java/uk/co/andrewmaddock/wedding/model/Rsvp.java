@@ -1,16 +1,15 @@
 package uk.co.andrewmaddock.wedding.model;
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.Size;
-
-import org.hibernate.validator.constraints.NotEmpty;
-import org.springframework.core.style.ToStringCreator;
-
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
 import com.googlecode.objectify.condition.IfNotZero;
+import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.core.style.ToStringCreator;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
 
 /**
  * Domain object representing a rsvp.
