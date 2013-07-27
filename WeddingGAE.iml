@@ -17,7 +17,7 @@
       </configuration>
       <facet type="google-app-engine" name="Google App Engine">
         <configuration>
-          <sdk-home-path>E:/Servers/GAE/appengine-java-sdk-1.8.2</sdk-home-path>
+          <sdk-home-path>/usr/share/gae/appengine-java-sdk-1.8.2</sdk-home-path>
           <files-to-enhance>
             <file path="$MODULE_DIR$/src/main/resources" />
             <file path="$MODULE_DIR$/src/main/java" />
@@ -45,7 +45,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jQuery-2.0.0" level="application" />
     <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />

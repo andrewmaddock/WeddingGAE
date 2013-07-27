@@ -1,14 +1,13 @@
 package uk.co.andrewmaddock.wedding.service.gae;
 
-import java.io.IOException;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.google.appengine.api.mail.MailService;
 import com.google.appengine.api.utils.SystemProperty;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import uk.co.andrewmaddock.wedding.service.EmailService;
 import uk.co.andrewmaddock.wedding.service.ServiceException;
+
+import java.io.IOException;
 
 import static com.google.appengine.api.mail.MailService.Message;
 
@@ -44,13 +43,8 @@ public class EmailServiceGae implements EmailService {
     @Override
     public void sendHtml(String to, String subject, String htmlBody) throws ServiceException {
         try {
-            Message message = new Message();
-            
-            message.setSender(SENDER_EMAIL);
-            message.setTo(to);
-            message.setSubject(subject);
+            Message message = new Message(SENDER_EMAIL, to, subject, null);
             message.setHtmlBody(htmlBody);
-            
             mailService.send(message);
         } catch (IOException e) {
             log.severe(e.toString());
@@ -72,13 +66,8 @@ public class EmailServiceGae implements EmailService {
     @Override
     public void sendHtmlToAdmins(String subject, String htmlBody) throws ServiceException {
         try {
-            Message message = new Message();
-            
-            message.setSender(SENDER_EMAIL);
-            message.setTo(SENDER_EMAIL);
-            message.setSubject(subject);
+            Message message = new Message(SENDER_EMAIL, SENDER_EMAIL, subject, null);
             message.setHtmlBody(htmlBody);
-            
             mailService.sendToAdmins(message);
         } catch (IOException e) {
             log.severe(e.toString());

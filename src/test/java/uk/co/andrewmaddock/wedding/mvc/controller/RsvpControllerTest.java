@@ -2,6 +2,8 @@ package uk.co.andrewmaddock.wedding.mvc.controller;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Captor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -9,13 +11,11 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.support.SessionStatus;
-
 import uk.co.andrewmaddock.wedding.model.Rsvp;
 import uk.co.andrewmaddock.wedding.service.RsvpService;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
-import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -50,6 +50,9 @@ public class RsvpControllerTest {
     @Mock
     private SessionStatus status = null;
 
+    @Captor
+    private ArgumentCaptor<Rsvp> rsvpCaptor = null;
+
     @Test
     public void setAllowedFieldsDisablesIdField() {
         controller.setAllowedFields(dataBinder);
@@ -61,8 +64,8 @@ public class RsvpControllerTest {
     public void initAddsPlaylistObjectAttributeAndReturnsPlaylistView() {
         String view = controller.init(model);
 
-        // TODO add captor to check if attending is true
-        verify(model).addAttribute(eq("rsvp"), any(Rsvp.class));
+        verify(model).addAttribute(eq("rsvp"), rsvpCaptor.capture());
+        assertThat(rsvpCaptor.getValue().isAttending(), is(true));
         assertThat(view, is("rsvp/rsvp"));
     }
 
@@ -104,8 +107,5 @@ public class RsvpControllerTest {
     private void givenHasErrorsIs(boolean errors) {
         when(result.hasErrors()).thenReturn(errors);
     }    
-    
-    
-    
-    
+
 }
