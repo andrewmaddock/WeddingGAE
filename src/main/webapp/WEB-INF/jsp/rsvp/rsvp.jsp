@@ -51,7 +51,7 @@
                             <input type="checkbox" name="bus" value="Yes, I would like to get the bus." /> <span class="checky">We'd like to get the bus ?</span>
                         </div>
 
-                        <textarea placeholder="Messages" name="message" cols="47" rows="8" required></textarea>
+                        <textarea style="width: 346px" placeholder="Messages" name="message" cols="47" rows="8" required></textarea>
 
                         <div class="divider"></div>
                         <input type="submit" name="submit" value="SUBMIT" />
