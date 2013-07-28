@@ -25,6 +25,4 @@
         </nav>
     </div>
 
-    </div>
-
 </section>

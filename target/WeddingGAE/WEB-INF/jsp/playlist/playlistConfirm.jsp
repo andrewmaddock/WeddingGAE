@@ -16,7 +16,7 @@
 
         <section style="min-height: 820px !important;" class="bottomrow">
             <div style="text-align:center;padding-top:75px;" id="bottomelements">
-                <img src="<spring:url value='/resources/images/Playlist/wedding-playlist-title.jpg'/>" alt="wedding-playlist-title" width="129" height="44"/>
+                <img src="<spring:url value='/resources/images/playlist/wedding-playlist-title.jpg'/>" alt="wedding-playlist-title" width="129" height="44"/>
                 <p style="margin-top: 40px;">
                     Thank you for your playlist submission
                     <br>
