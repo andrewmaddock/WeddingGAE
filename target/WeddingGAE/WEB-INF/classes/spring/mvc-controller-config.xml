@@ -9,13 +9,13 @@
         
     <beans profile="gae">
         
-        <bean id="playListController" class="uk.co.andrewmaddock.wedding.mvc.controller.PlayListController">
-            <constructor-arg index="0" ref="playListService"/>
-        </bean>
+        <!--<bean id="playListController" class="uk.co.andrewmaddock.wedding.mvc.controller.PlayListController">-->
+            <!--<constructor-arg index="0" ref="playListService"/>-->
+        <!--</bean>-->
 
-        <bean id="rsvpController" class="uk.co.andrewmaddock.wedding.mvc.controller.RsvpController">
-            <constructor-arg index="0" ref="rsvpService"/>
-        </bean>
+        <!--<bean id="rsvpController" class="uk.co.andrewmaddock.wedding.mvc.controller.RsvpController">-->
+            <!--<constructor-arg index="0" ref="rsvpService"/>-->
+        <!--</bean>-->
 
     </beans>    
 

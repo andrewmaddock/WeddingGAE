@@ -21,8 +21,8 @@
     <mvc:view-controller path="/transport" view-name="transport/transport" />
     <mvc:view-controller path="/accommodation" view-name="accommodation/accommodation" />
     <mvc:view-controller path="/getinvolved" view-name="getinvolved/getinvolved" />
-    <!--<mvc:view-controller path="/playlist" view-name="playlist/playlist" />-->
-    <!--<mvc:view-controller path="/rsvp" view-name="rsvp/rsvp" />-->
+    <mvc:view-controller path="/playlist" view-name="playlist/playlist" />
+    <mvc:view-controller path="/rsvp" view-name="rsvp/rsvp" />
     <mvc:view-controller path="/giftlist" view-name="giftlist/giftlist" />
 
     <!-- This bean resolves specific types of exceptions to corresponding logical view names for error views -->

@@ -14,7 +14,7 @@
 
         <jsp:include page="/WEB-INF/jsp/fragments/navbar.jsp"/>
 
-        <section style="min-height: 720px !important;" class="bottomrow">
+        <section style="min-height: 1000px !important;" class="bottomrow">
 
             <div style="text-align:center;padding-top:75px;" id="bottomelements">
                 <img src="<spring:url value='/resources/images/transport/wedding-transport-title.jpg'/>" alt="wedding-transport-title" width="136" height="44">
